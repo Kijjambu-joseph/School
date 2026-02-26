@@ -9,6 +9,9 @@ import AdminDashboard from "./dashboards/admin/AdminDashboard";
 import TeacherDashboard from "./dashboards/teacher/TeacherDashboard";
 import ForgotPassword from "./auth/ForgotPassword";
 import ResetPassword from "./auth/ResetPassword";
+import StudentSearch from "./dashboards/admin/StudentSearch";
+import TeacherSearch from "./dashboards/admin/TeacherSearch";
+
 
 
 
@@ -23,10 +26,12 @@ function App() {
           <Route path="/login" element={< LoginForm />} />
           <Route path="/student/Reg" element={<StudentRegistration />} />
           <Route path="/teachers/Reg" element={<TeacherRegistration />} />
-          <Route path="/admin" element={<AdminDashboard/>}/>
+          <Route path="/admin/*" element={<AdminDashboard/>}/>
           <Route path="/teacher" element={<TeacherDashboard/>}/>
           <Route path="/forgotpassword" element={<ForgotPassword/>}/>
           <Route path="/resetpassword" element={<ResetPassword/>}/>
+          <Route path="/search" element={<StudentSearch/>}/>
+          <Route path="/teachersearch" element={<TeacherSearch/>}/>
   
       </Routes>
   </BrowserRouter>
