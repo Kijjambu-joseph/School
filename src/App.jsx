@@ -9,8 +9,8 @@ import AdminDashboard from "./dashboards/admin/AdminDashboard";
 import TeacherDashboard from "./dashboards/teacher/TeacherDashboard";
 import ForgotPassword from "./auth/ForgotPassword";
 import ResetPassword from "./auth/ResetPassword";
-import StudentSearch from "./StudentSearch";
-import TeacherSearch from "./TeacherSearch";
+import StudentSearch from "./dashboards/admin/StudentSearch";
+import TeacherSearch from "./dashboards/admin/TeacherSearch";
 
 
 
