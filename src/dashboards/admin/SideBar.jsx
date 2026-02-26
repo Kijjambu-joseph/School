@@ -1,6 +1,7 @@
 import React from "react";
 import kyuLogo from '/src/assets/images-removebg-preview.png'
 import './SideBar.css'
+import { NavLink } from "react-router-dom";
 
 function SideBar (){
     return(
@@ -14,19 +15,21 @@ function SideBar (){
                         <hr />
                     <div className="sidebar-content">
                         <i class="fa-solid fa-house-user" id="admin-icon-side"></i>
-                        <a href="">Dashboard</a>
+                        <NavLink to="/admin">Dashboard</NavLink>
                     </div>
         
                     
         
                     <div className="sidebar-content">
                         <i class="fa-solid fa-users" id="admin-icon-side"></i>
-                        <a href="">students</a>
+                        {/* <a href="">students</a> */}
+                        <NavLink to="/admin/students">Students</NavLink>
                     </div>
         
                     <div className="sidebar-content">
                         <i class="fas fa-graduation-cap" id="admin-icon-side"></i>
-                        <a href="">Teachers</a>
+                        {/* <a href="">Teachers</a> */}
+                        <NavLink to="/admin/teachers">Teachers</NavLink>
                     </div>
         
                     <div className="sidebar-content">

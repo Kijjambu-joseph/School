@@ -3,11 +3,10 @@ import Header from "./Header";
 import SideBar from "./SideBar";
 import AdminCards from "./AdminCards";
 import Body from "./Body";
-
-
-
-
-
+import StudentSearch from "../../StudentSearch";
+import TeacherSearch from "../../TeacherSearch";
+import { Routes,Route } from "react-router-dom";
+import OverviewDashboard from "./OverviewDashboard";
 
 function AdminDashboard (){
     return(
@@ -17,10 +16,14 @@ function AdminDashboard (){
                 <SideBar/>
 
                 <div>
-                    <AdminCards/>
+                    {/* <AdminCards/> */}
 
                     <div>
-                      <Body/>
+                        <Routes>
+                            <Route path="/" element={<OverviewDashboard/>} />
+                            <Route path="students" element={<StudentSearch/>} />
+                            <Route path="teachers" element={<TeacherSearch/>} />
+                        </Routes>
                     </div>
                 </div>
                 
