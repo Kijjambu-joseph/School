@@ -18,6 +18,11 @@
     color: black;
   }
 
+  .sidebar-content a:hover{
+    background-color:#3b82f6;
+    color:white;
+  }
+
   .fa-graduation-cap,
   .fa-book-open{
     color: #ffffff;

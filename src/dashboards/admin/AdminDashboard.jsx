@@ -9,6 +9,7 @@ import StudentSearch from "./StudentSearch"
 import { Routes,Route } from "react-router-dom";
 import OverviewDashboard from "./OverviewDashboard";
 import TeacherSearch from "./TeacherSearch";
+import Attendance from "./Attendance";
 
 function AdminDashboard (){
     return(
@@ -25,6 +26,7 @@ function AdminDashboard (){
                             <Route path="/" element={<OverviewDashboard/>} />
                             <Route path="students" element={<StudentSearch/>} />
                             <Route path="teachers" element={<TeacherSearch/>} />
+                            <Route path="attendance" element={<Attendance/>} />
                         </Routes>
                     </div>
                 </div>

@@ -33,26 +33,19 @@ function SideBar (){
                     </div>
         
                     <div className="sidebar-content">
-                        <i class="fa-solid fa-book-open" id="admin-icon-side"></i>
-                        <a href="">Classes</a>
-                    </div>
-        
-                    <div className="sidebar-content">
                         <i class="fa-solid fa-marker" id="admin-icon-side"></i>
-                        <a href="">Marks</a>
+                        <a href="">Grades</a>
                     </div>
         
                     <div className="sidebar-content">
                         <i class="fa-solid fa-clipboard-user" id="admin-icon-side"></i>
-                        <a href="">Attendencs</a>
+                        <NavLink to="/admin/attendance">Attendance</NavLink>
                     </div>
         
                     <div className="sidebar-content">
                         <i class="fa-solid fa-calendar" id="admin-icon-side"></i>
                         <a href="">Time table</a>
                     </div>
-        
-                    
         
                     <div className="sidebar-content">
                         <i class="fa-solid fa-gear" id="admin-icon-side"></i>
