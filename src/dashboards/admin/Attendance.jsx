@@ -12,10 +12,10 @@ import "./Attendance.css";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
-const weeklyData = [
-  { day: "Mon", present: 182, absent: 15, late: 11 },
-  { day: "Tue", present: 176, absent: 18, late: 14 },
-  { day: "Wed", present: 190, absent: 10, late: 9 },
+    const weeklyData = [
+   { day: "Mon", present: 182, absent: 15, late: 11 },
+   { day: "Tue", present: 176, absent: 18, late: 14 },
+   { day: "Wed", present: 190, absent: 10, late: 9 },
   { day: "Thu", present: 185, absent: 13, late: 12 },
   { day: "Fri", present: 179, absent: 16, late: 13 },
 ];
