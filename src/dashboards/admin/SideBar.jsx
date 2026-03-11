@@ -34,7 +34,7 @@ function SideBar (){
         
                     <div className="sidebar-content">
                         <i class="fa-solid fa-marker" id="admin-icon-side"></i>
-                        <a href="">Grades</a>
+                        <NavLink to="/admin/grades">Grades</NavLink>
                     </div>
         
                     <div className="sidebar-content">
