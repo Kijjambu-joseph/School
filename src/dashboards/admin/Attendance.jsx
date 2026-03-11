@@ -26,9 +26,9 @@ const attendanceRecords = [
   { id: "STU-003", student: "Michael Otto", className: "S3A", status: "late" },
   { id: "STU-004", student: "Emily Watera", className: "S5A", status: "present" },
   { id: "STU-005", student: "David Kijjambu", className: "S4A", status: "unknown" },
-  { id: "STU-006", student: "Anna Nanyonjo", className: "S3B", status: "present" },
-  { id: "STU-007", student: "Robert Ssemanda", className: "S2C", status: "absent" },
-  { id: "STU-008", student: "Miriam Achan", className: "S1A", status: "late" },
+  // { id: "STU-006", student: "Anna Nanyonjo", className: "S3B", status: "present" },
+  // { id: "STU-007", student: "Robert Ssemanda", className: "S2C", status: "absent" },
+  // { id: "STU-008", student: "Miriam Achan", className: "S1A", status: "late" },
 ];
 
 const statusLabel = {

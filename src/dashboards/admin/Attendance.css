@@ -19,8 +19,8 @@
 
 .attendance-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 220px));
+  gap: 10px;
   margin-bottom: 10px;
 }
 
@@ -40,6 +40,7 @@
 .attendance-card h3 {
   font-size: 15px;
   margin-bottom: 8px;
+  font-weight:900px;
 }
 
 .attendance-card h2 {
@@ -87,9 +88,9 @@
 }
 
  .attendance-chart-panel,
-.attendance-table-panel {
+ .attendance-table-panel{
   width: 950px;
-  height:800px;
+  height:500px;
   background: #ffffff;
   border-radius: 10px;
   padding: 18px;
@@ -97,19 +98,21 @@
 }
 
 .attendance-chart-panel {
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
+
 
 .attendance-chart-panel h2,
 .attendance-table-header h2 {
   font-size: 15px;
-  color: #1f2937;
+  color: black;
   margin-bottom: 10px;
 }
 
 .attendance-chart-box {
   width: 100%;
-  min-height: 320px;
+  min-height: 300px;
+  margin: auto;
 }
 
 .attendance-table-header {
