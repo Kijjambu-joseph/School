@@ -41,10 +41,15 @@
     place-items: center;
   }
   .admin-container{
+    width: 80vw;
+    height: auto;
     margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .admin-container h1{
-    font-size: 50px;
+    font-size: 40px;
   }
   .admin-container h2{
     font-size: 20px;
