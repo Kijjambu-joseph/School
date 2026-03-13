@@ -120,51 +120,6 @@ function TeacherRegistration(){
                         </div>  
                     </div>
                 </fieldset>
-                <fieldset>
-                    <legend>Parent/Gardian Information</legend>
-                    <div className="Teachers-infor-container">
-                        <div className="Teachers-infor">
-
-                            <div className="Teachers-input-container">
-                                <label htmlFor="parents-name">Parents-name</label>
-                                <input type="text" id="parents-name" required placeholder="Name"/>
-                            </div>
-                            <div className="Teachers-input-container">
-                                <label htmlFor="relationship">Relationship</label>
-                                <select name="" id="relationship" required>
-                                    <option value="">select</option>
-                                    <option value="">Father</option>
-                                    <option value="">Mother</option>
-                                    <option value="">Gardian</option>
-                                </select>
-                            </div>
-
-                        </div>
-                        <div className="Teachers-infor">
-
-                            <div className="Teachers-input-container">
-                                <label htmlFor="phone-number">Phone-number</label>
-                                <input type="text" id="phone-number" required placeholder="Phone-number"/>
-                            </div>
-                            <div className="Teachers-input-container">
-                                  <label htmlFor="email">Email(if any)</label>
-                                  <input type="text" id="email" required placeholder="Email"/>
-                           </div>
-                        </div>
-                        <div className="Teachers-infor">
-
-                            <div className="Teachers-input-container">
-                                <label htmlFor="occupation">Occupation</label>
-                                <input type="text" id="occupation" required placeholder="Parish"/>
-                            </div>
-                            <div className="Teachers-input-container">
-                                <label htmlFor="address">Address</label>
-                                <input type="text" id="address" required placeholder="Address"/>
-                            </div>
-
-                        </div> 
-                    </div>
-                </fieldset>
 
                 <fieldset>
                     <legend>Professional information </legend>
